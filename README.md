@@ -8,3 +8,5 @@ This is a private repository for health center records.
 We can also say that we don't have evidence that respiratory infections are consistently widespread among staff. In 2018, there might have been many staff infected with something, but we can't be sure. 
 
 The lesson is that even if we aren't looking for cold or flu infections during the first session, one staff member is probably sick! During this time, we have the opportunity to use monitoring and interventions to control the spread of infectious diseases. 
+
+3. If there is an early outbreak, it will probably become clear in Session 2 as more patients, particularly staff, present to the health center. Stronger interventions may be required at this point, such as isolating groups of patients for sleeping and meals.
