@@ -21,3 +21,5 @@ Overall, campers don't vary between sessions all that much. Stick within 15-20 p
 Viewed year by year, we can tell that Session 3 always presents cold and flu symptoms for staff. Often, the number turns out to be roughly one visit per day for the first half of the session. In 2019, however, that number was doubled. There was a staff visit for every day of the session and then some. 
 
 Nearly a third show cold and flu symptoms. On average, about 31 percent of staff visits in Session 3 show cold and flu symptoms. This is also the most consistent of all sessions, with the lowest standard deviation of about 14 percent.
+
+As the plot shows, the average does tend to decline from Session 2, where close to 43 percent of visits showed symptoms. More data and a deeper analysis are required to judge the decline itself. What we can say is that staff infections appear to persist through Session 3, especially the first half. In this time, staff can present between 15 and 48 percent of visits with cold and flu symptoms.
