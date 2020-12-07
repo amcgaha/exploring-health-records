@@ -14,3 +14,5 @@ The lesson is that even if we aren't looking for cold or flu infections during t
 
 4. Session 2 campers: 
 The takeaway for decision-makers is that respiratory infections seem to always be present in Session 2, and that the number of visits is fairly consistent year-to-year. It's important to take preventative measures, monitor, intervene when necessary. The lesson from Session 2 is that infections are probably present even if we're not looking for them. 
+
+Overall, campers don't vary between sessions all that much. Stick within 15-20 percent of visits range. Staff vary much more. Variance in Session 1 and 5 doesn't mean much because there isn't much data, but variance in Session 2 reveals that significant outbreaks may have occured in certain years.
