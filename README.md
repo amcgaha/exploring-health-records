@@ -9,7 +9,8 @@ We can also say that we don't have evidence that respiratory infections are cons
 
 The lesson is that even if we aren't looking for cold or flu infections during the first session, one staff member is probably sick! During this time, we have the opportunity to use monitoring and interventions to control the spread of infectious diseases. 
 
-3.If there is an early outbreak, it will probably become clear in Session 2 as more patients, particularly staff, present to the health center. More than just a few staff visits will be cause for concern, because the trajectory could reach as many as 20 visits, possibly more. That could imply a heavy burden of disease for staff. Stronger interventions may be required at this point, such as isolating groups of patients for sleeping and meals.
+3. Session 2 Staff: If there is an early outbreak, it will probably become clear in Session 2 as more patients, particularly staff, present to the health center. More than just a few staff visits will be cause for concern, because the trajectory could reach as many as 20 visits, possibly more. That could imply a heavy burden of disease for staff. Stronger interventions may be required at this point, such as isolating groups of patients for sleeping and meals.
 
 
-4. The takeaway for decision-makers is that respiratory infections seem to always be present in Session 2, and that the burden can vary widely. It's important to take preventative measures, monitor, intervene when necessary. The lesson from Session 2 is that infections are probably present even if we're not looking for them. 
+4. Session 2 campers: 
+The takeaway for decision-makers is that respiratory infections seem to always be present in Session 2, and that the number of visits is fairly consistent year-to-year. It's important to take preventative measures, monitor, intervene when necessary. The lesson from Session 2 is that infections are probably present even if we're not looking for them. 
