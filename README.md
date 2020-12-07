@@ -9,10 +9,15 @@ We can also say that we don't have evidence that respiratory infections are cons
 
 The lesson is that even if we aren't looking for cold or flu infections during the first session, one staff member is probably sick! During this time, we have the opportunity to use monitoring and interventions to control the spread of infectious diseases. 
 
-3. Session 2 Staff: If there is an early outbreak, it will probably become clear in Session 2 as more patients, particularly staff, present to the health center. More than just a few staff visits will be cause for concern, because the trajectory could reach as many as 20 visits, possibly more. That could imply a heavy burden of disease for staff. Stronger interventions may be required at this point, such as isolating groups of patients for sleeping and meals.
+3. Session 2 Staff: If there is an early outbreak, it will probably become clear in Session 2 as more patients, particularly staff, present to the health center. More than just a few staff visits will be cause for concern, because the trajectory could reach as many as 20 visits, possibly more. That could imply a heavy burden of disease for staff. Stronger interventions may be required at this point, such as isolating groups of patients for sleeping and meals. 42 percent of staff visits showed symptoms. 
 
 
 4. Session 2 campers: 
 The takeaway for decision-makers is that respiratory infections seem to always be present in Session 2, and that the number of visits is fairly consistent year-to-year. It's important to take preventative measures, monitor, intervene when necessary. The lesson from Session 2 is that infections are probably present even if we're not looking for them. 
 
 Overall, campers don't vary between sessions all that much. Stick within 15-20 percent of visits range. Staff vary much more. Variance in Session 1 and 5 doesn't mean much because there isn't much data, but variance in Session 2 reveals that significant outbreaks may have occured in certain years.
+
+5. Session 3
+Viewed year by year, we can tell that Session 3 always presents cold and flu symptoms for staff. Often, the number turns out to be roughly one visit per day for the first half of the session. In 2019, however, that number was doubled. There was a staff visit for every day of the session and then some. 
+
+Nearly a third show cold and flu symptoms. On average, about 31 percent of staff visits in Session 3 show cold and flu symptoms. This is also the most consistent of all sessions, with the lowest standard deviation of about 14 percent.
