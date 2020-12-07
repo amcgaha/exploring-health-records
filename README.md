@@ -23,3 +23,14 @@ Viewed year by year, we can tell that Session 3 always presents cold and flu sym
 Nearly a third show cold and flu symptoms. On average, about 31 percent of staff visits in Session 3 show cold and flu symptoms. This is also the most consistent of all sessions, with the lowest standard deviation of about 14 percent.
 
 As the plot shows, the average does tend to decline from Session 2, where close to 43 percent of visits showed symptoms. More data and a deeper analysis are required to judge the decline itself. What we can say is that staff infections appear to persist through Session 3, especially the first half. In this time, staff can present between 15 and 48 percent of visits with cold and flu symptoms.
+
+Camper visits are consistent across Session 3 -- and across all sessions.
+With remarkable consistency, an average of 20 percent of camper visits in Session 3 show symptoms. Two outliers can be found, technically, but the spread looks consistent with other sessions.
+
+How should we interpret this fact? We can say that Session 3 visits appear consistent both with other sessions (maintaining an average of between 15 and 20 percent all summer) and between years. Together, these observations suggest that the percent of camper visits showing symptoms remains stable across the summer.
+
+This stability is significant, because it's not what a first look would show. When we look at the sum of all visits for campers, we get a plot that is skewed by the natural pattern in total visits across the summer. Have a look at the sum, which shows all of the top categories shifting together across the summer. Notice, too, the high correlations below the plot.
+
+When looking at relatively stable data like this, we can also plan to use it for comparison. As we are developing best practices for the next summer, we can use past data to understand how our policies and plans have impacted the level of illness at camp and how confident we can be in that assessment. 
+
+In more technical terms, we can use this to create a data model (likely assuming a normal distribution) and apply statistical methods to guage whether the outcome was more likely to be the result of random chance or the result of our preparations. 
