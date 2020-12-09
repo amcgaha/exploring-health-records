@@ -1,36 +1,88 @@
-# health-exploration
-This is a private repository for health center records.
+# Exploring Cold & Flu Symptoms at Summer Camp
+My summer camp is revising our communicable disease plan for summer 2021. In addition to public health research and expert advice, we hope to study our own health center records to see what we can learn from possible respiratory infections at camp in the past. This project explores a tidy dataset created in [this previous project](https://github.com/amcgaha/coding-health-records), focusing on cold and flu symptoms reported to the health center.
 
-# Recommendations
-1. Hire Medical Staff for Staff Training. Only two years where we've done this. In 2017, 33 percent of those visits showed cold or flu symptoms! This could allow us to keep more people from getting sick.
-2. Monitor staff intensely during Session 1. Cold and flu symptoms present in health center records almost every year during Session 1. That means that every year, at least one staff member is likely sick with a respiratory infection during Session 1. The most was in 2018, when 5 staff visits out of 16 (33%) reported cold or flu symptoms.
+A summary analysis is produced for decision-makers, along with recommendations for policy changes to address issues revealed by the data.
 
-We can also say that we don't have evidence that respiratory infections are consistently widespread among staff. In 2018, there might have been many staff infected with something, but we can't be sure. 
+The primary conclusion is that increased monitoring, especially early on in the summer, can facilitate prompt and early interventions. These two actions may help control the spread of disease and improve the wellbeing of people at camp.
 
-The lesson is that even if we aren't looking for cold or flu infections during the first session, one staff member is probably sick! During this time, we have the opportunity to use monitoring and interventions to control the spread of infectious diseases. 
+## Contents
+1.	[Introduction](https://github.com/amcgaha/exploring-health-records#introduction)
+2.	[Data Source](https://github.com/amcgaha/exploring-health-records#data-source)
+3.	[Methods & Tools](https://github.com/amcgaha/exploring-health-records#methods--tools)
+4.	[Procedure](https://github.com/amcgaha/exploring-health-records#procedure)
+5.	[Products](https://github.com/amcgaha/exploring-health-records#products)
+6.	[Next Steps](https://github.com/amcgaha/exploring-health-records#next-steps)
 
-3. Session 2 Staff: If there is an early outbreak, it will probably become clear in Session 2 as more patients, particularly staff, present to the health center. More than just a few staff visits will be cause for concern, because the trajectory could reach as many as 20 visits, possibly more. That could imply a heavy burden of disease for staff. Stronger interventions may be required at this point, such as isolating groups of patients for sleeping and meals. 42 percent of staff visits showed symptoms. 
+## Introduction
+The COVID-19 pandemic has caused many organizations to reevaluate their communicable disease protocols. My organization, a summer camp that did not open in 2020, is working on a safety plan to open this summer, which requires a careful study of best practices and risk management techniques.
 
+We always followed basic measures, like washing hands and sanitizing surfaces. However, our knowledge of best practices has advanced significantly in the past year. In particular, we have learned the importance of social distancing, wearing masks, and isolating patients who are suspected to have a communicable disease.
 
-4. Session 2 campers: 
-The takeaway for decision-makers is that respiratory infections seem to always be present in Session 2, and that the number of visits is fairly consistent year-to-year. It's important to take preventative measures, monitor, intervene when necessary. The lesson from Session 2 is that infections are probably present even if we're not looking for them. 
+While they are now solidifying as social norms, these public health protocols seemed over-serious, even foreign, in the years before COVID-19. We certainly took any illness seriously, especially those accompanied by fever. However, a cold or cough was not a trigger for immediate isolation, mask wearing, or distancing, as would likely now be the case. As a result, we suspect our communicable disease protocol may not have been as robust as it needs to be during this and following summers.
 
-Overall, campers don't vary between sessions all that much. Stick within 15-20 percent of visits range. Staff vary much more. Variance in Session 1 and 5 doesn't mean much because there isn't much data, but variance in Session 2 reveals that significant outbreaks may have occured in certain years.
+Anecdotally, staff members -- including me -- can recall that getting a cold or other respiratory infection in the past has seemed normal. We have gotten sick, took some medication to relieve symptoms, and often kept working. The COVID-19 pandemic has shown us that these norms ignored some basic ways we can help reduce the spread of communicable diseases at camp.
 
-5. Session 3
-Viewed year by year, we can tell that Session 3 always presents cold and flu symptoms for staff. Often, the number turns out to be roughly one visit per day for the first half of the session. In 2019, however, that number was doubled. There was a staff visit for every day of the session and then some. 
+As part of our broader planning strategy, we would like to explore how respiratory infections may have manifested and spread at camp in the past. Knowing differences between staff and campers, for example, could help us generate smarter policies for each group. Watching how diseases manifest and change over time may also yield useful insights.
 
-Nearly a third show cold and flu symptoms. On average, about 31 percent of staff visits in Session 3 show cold and flu symptoms. This is also the most consistent of all sessions, with the lowest standard deviation of about 14 percent.
+This project analyzes health center records, which are described in more detail below. It produces a summary of findings for decision-makers, along with recommendations for policy changes.
 
-As the plot shows, the average does tend to decline from Session 2, where close to 43 percent of visits showed symptoms. More data and a deeper analysis are required to judge the decline itself. What we can say is that staff infections appear to persist through Session 3, especially the first half. In this time, staff can present between 15 and 48 percent of visits with cold and flu symptoms.
+## Data Source
+The dataset explored here was produced in a [a previous project.](https://github.com/amcgaha/coding-health-records), which transformed messy, text-centered reports into a tidy dataset.
 
-Camper visits are consistent across Session 3 -- and across all sessions.
-With remarkable consistency, an average of 20 percent of camper visits in Session 3 show symptoms. Two outliers can be found, technically, but the spread looks consistent with other sessions.
+The process to create the dataset was laborious, but it involved programmatically scanning text reports for a number of keywords representing categories. Then, records were tagged as True or False for each category. For example, if a text report mentioned "congestion" or "stuffy nose", the record was labeled True for the larger category "congestion." Records were then uploaded to an existing database containing camp information and linked to other tables with information about summer dates and people.
 
-How should we interpret this fact? We can say that Session 3 visits appear consistent both with other sessions (maintaining an average of between 15 and 20 percent all summer) and between years. Together, these observations suggest that the percent of camper visits showing symptoms remains stable across the summer.
+For this project, an expanded dataset was retrieved from the database to include information about summer dates. The dataset contains more than 3,700 records from the years 2013 to 2019. It includes health center visits from both campers and staff across all camp sessions.
 
-This stability is significant, because it's not what a first look would show. When we look at the sum of all visits for campers, we get a plot that is skewed by the natural pattern in total visits across the summer. Have a look at the sum, which shows all of the top categories shifting together across the summer. Notice, too, the high correlations below the plot.
+To learn more about the data source and the resulting dataset, [visit this project repository.](https://github.com/amcgaha/coding-health-records)
 
-When looking at relatively stable data like this, we can also plan to use it for comparison. As we are developing best practices for the next summer, we can use past data to understand how our policies and plans have impacted the level of illness at camp and how confident we can be in that assessment. 
+__Data Privacy Note__: Health records are extremely sensitive and regulated by law. The full dataset will not be posted publicly. Only the documentation of my process is posted here.
 
-In more technical terms, we can use this to create a data model (likely assuming a normal distribution) and apply statistical methods to guage whether the outcome was more likely to be the result of random chance or the result of our preparations. 
+## Methods & Tools
+The data is maintained in a __Postgres__ database. To maintain flexibility and anonymity, as well as connect useful information about specific summer dates, the dataset was downloaded from the database in csv format using __SQL__ queries.
+
+The data is processed and explored in __Python__, using the standard data science libraries __pandas__, __seaborn__, and __matplotlib__.
+
+## Procedure
+The data exploration and analysis is shown step by step in the following __Jupyter Notebook__.
+
+[View Notebook](https://github.com/amcgaha/exploring-health-records/blob/main/exploring_health_notebook.ipynb)
+
+## Products
+A summary of analysis and recommendations has been provided to decision-makers. That document is available here as a PDF.
+
+[View Summary for Decision-Makers](https://github.com/amcgaha/exploring-health-records/blob/main/exploring_health_notebook.ipynb)
+
+The headline recommendations are to:
+* Hire medical staff during the staff training and screen staff for symptoms.
+* Ensure all medical staff are trained in standards for record-keeping
+* Inspect records weekly and ensure data is being recorded properly
+* In the first weeks of camp, focus on monitoring, prevention, and early interventions
+* As the summer moves on, continue to maintain high standards for hygiene, cleaning, and monitoring
+* Provide specific advice on reducing spread to anyone who shows symptoms. This should happen not only at the onset of symptoms, but also at the end of each session and the end of summer, to help keep other staff healthy and campers' families healthy.
+
+## Next Steps
+### 1. Provide Addendum for COVID-19
+This project made some recommendations for decision-makers based on past data. Some of those recommendations should be adjusted for this summer in particular due to the COVID-19 pandemic. Most policy changes will need to be more robust, strict, and serious this year.
+
+For example, anyone who reports to the health center with a cough may need to be isolated completely and even sent home. In future years, we may not need to be that strict. A camper with a cough may simply need to wear a mask and take meals at the health center.
+
+An important next step will be to develop an addendum for decision-makers that outlines some possible differences in the recommendations. It may be useful to develop this document with the help of longtime camp medical staff.
+
+### 2. Revise Health Center Training
+To ensure strong data collection in the future, we must revise how we onboard and train medical staff. Thanks to discoveries made in this project, we now know that visits to the health hut have been significantly underreported in two circumstances.
+
+First, since medical staff are often not present during Staff Training, few years show any visits at all. Years that did report visits, however, often showed cold and flu symptoms. If illnesses are to be controlled, medical staff will need to be present, trained, and vigilant starting the first day of camp.
+
+The second circumstance was the entire year of 2016. That year, medical staff failed to record a huge number of visits, resulting in a year with much less useful data.
+
+These discoveries highlight the importance of careful training for medical staff. These professionals know how to make reports. They may simply need clear guidance to our expectations, how our system works, and support to ensure their reports are being entered correctly.
+
+### 3. Develop Data Model
+Camper visits to the health center seem fairly predictable across the summer. A useful next step would be to develop a data model. With a model, we would be able to show how normal or abnormal the number of health hut visits seems.
+
+This will be useful in the summer. While individual cases will need to be tracked carefully, we would also be able to look at the number of visits for any category -- including injuries, bug bites, or even anxiety -- and assess if our numbers fit within what we expect based on the past.
+
+We would hope to see lower numbers than is typical of the past. That might provide evidence suggesting our policy changes have been effective.
+
+### 4. Update High-Level Communication Tools
+During the summer, camp directors communicate important information among each other using a daily report form. That form does not yet include a specific spot for reporting health concerns. Especially considering the high stakes of COVID-19, that form should be revised to include health concerns or other information that could aid prevention strategies. With this adjustment, the form could also be an important source of data going forward.
