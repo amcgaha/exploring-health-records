@@ -32,7 +32,7 @@ As part of our broader planning strategy, we would like to explore how respirato
 This project analyzes health center records, which are described in more detail below. It produces a summary of findings for decision-makers, along with recommendations for policy changes.
 
 ## Data Source
-The dataset explored here was produced in a [a previous project.](https://github.com/amcgaha/coding-health-records), which transformed messy, text-centered reports into a tidy dataset.
+The dataset explored here was produced in a [a previous project](https://github.com/amcgaha/coding-health-records), which transformed messy, text-centered reports into a tidy dataset.
 
 The process to create the dataset was laborious, but it involved programmatically scanning text reports for a number of keywords representing categories. Then, records were tagged as True or False for each category. For example, if a text report mentioned "congestion" or "stuffy nose", the record was labeled True for the larger category "congestion." Records were then uploaded to an existing database containing camp information and linked to other tables with information about summer dates and people.
 
