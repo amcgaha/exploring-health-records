@@ -20,7 +20,11 @@ We always followed basic measures, like washing hands and sanitizing surfaces. H
 
 While they are now solidifying as social norms, these public health protocols seemed over-serious, even foreign, in the years before COVID-19. We certainly took any illness seriously, especially those accompanied by fever. However, a cold or cough was not a trigger for immediate isolation, mask wearing, or distancing, as would likely now be the case. As a result, we suspect our communicable disease protocol may not have been as robust as it needs to be during this and following summers.
 
-Anecdotally, staff members -- including me -- can recall that getting a cold or other respiratory infection in the past has seemed normal. We have gotten sick, took some medication to relieve symptoms, and often kept working. The COVID-19 pandemic has shown us that these norms ignored some basic ways we can help reduce the spread of communicable diseases at camp.
+Consider this plot. It shows the percent of all visits to the health center that show cold and flu symptoms. They are presented in chronological order, with the first day of camp on the left. The labels note camp sessions - the label most useful to the audience of camp leadership.
+
+![Image](https://github.com/amcgaha/exploring-health-records/blob/main/images/daily_plot_both.png)
+
+This plot matches the staff experience particularly well. Anecdotally, staff members -- including me -- can recall that getting a cold or other respiratory infection in the past has seemed normal. We have gotten sick, took some medication to relieve symptoms, and often kept working. The COVID-19 pandemic has shown us that these norms ignored some basic ways we can help reduce the spread of communicable diseases at camp.
 
 As part of our broader planning strategy, we would like to explore how respiratory infections may have manifested and spread at camp in the past. Knowing differences between staff and campers, for example, could help us generate smarter policies for each group. Watching how diseases manifest and change over time may also yield useful insights.
 
@@ -53,7 +57,7 @@ A summary of analysis and recommendations has been provided to decision-makers. 
 [View Summary for Decision-Makers](https://github.com/amcgaha/exploring-health-records/blob/main/exploring_health_notebook.ipynb)
 
 The headline recommendations are to:
-* Hire medical staff during the staff training and screen staff for symptoms.
+* Hire medical staff during the staff training week and screen staff for symptoms
 * Ensure all medical staff are trained in standards for record-keeping
 * Inspect records weekly and ensure data is being recorded properly
 * In the first weeks of camp, focus on monitoring, prevention, and early interventions
