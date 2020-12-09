@@ -20,9 +20,10 @@ We always followed basic measures, like washing hands and sanitizing surfaces. H
 
 While they are now solidifying as social norms, these public health protocols seemed over-serious, even foreign, in the years before COVID-19. We certainly took any illness seriously, especially those accompanied by fever. However, a cold or cough was not a trigger for immediate isolation, mask wearing, or distancing, as would likely now be the case. As a result, we suspect our communicable disease protocol may not have been as robust as it needs to be during this and following summers.
 
-Consider this plot. It shows the percent of all visits to the health center that show cold and flu symptoms. They are presented in chronological order, with the first day of camp on the left. The labels note camp sessions - the label most useful to the audience of camp leadership.
+Consider this plot. It shows the percent of all visits to the health center that show cold and flu symptoms. They are presented in chronological order, with the first day of camp on the left. The labels note camp sessions, which is the label most useful to the audience of camp leadership.
 
 ![Image](https://github.com/amcgaha/exploring-health-records/blob/main/images/daily_plot_both.png)
+
 
 This plot matches the staff experience particularly well. Anecdotally, staff members -- including me -- can recall that getting a cold or other respiratory infection in the past has seemed normal. We have gotten sick, took some medication to relieve symptoms, and often kept working. The COVID-19 pandemic has shown us that these norms ignored some basic ways we can help reduce the spread of communicable diseases at camp.
 
@@ -82,6 +83,11 @@ The second circumstance was the entire year of 2016. That year, medical staff fa
 These discoveries highlight the importance of careful training for medical staff. These professionals know how to make reports. They may simply need clear guidance to our expectations, how our system works, and support to ensure their reports are being entered correctly.
 
 ### 3. Develop Data Model
+Consider this statistical plot of camper visits to the health center showing cold and flu symptoms.
+
+![Image](https://github.com/amcgaha/exploring-health-records/blob/main/images/session_plot_campers.png)
+
+
 Camper visits to the health center seem fairly predictable across the summer. A useful next step would be to develop a data model. With a model, we would be able to show how normal or abnormal the number of health hut visits seems.
 
 This will be useful in the summer. While individual cases will need to be tracked carefully, we would also be able to look at the number of visits for any category -- including injuries, bug bites, or even anxiety -- and assess if our numbers fit within what we expect based on the past.
