@@ -55,7 +55,7 @@ The data exploration and analysis is shown step by step in the following __Jupyt
 ## Products
 A summary of analysis and recommendations has been provided to decision-makers. That document is available here as a PDF.
 
-[View Summary for Decision-Makers](https://github.com/amcgaha/exploring-health-records/blob/main/exploring_health_notebook.ipynb)
+[View Summary for Decision-Makers](https://github.com/amcgaha/exploring-health-records/blob/main/cold_flu_summary_decision_makers.pdf)
 
 The headline recommendations are to:
 * Hire medical staff during the staff training week and screen staff for symptoms
