@@ -29,7 +29,7 @@ This plot matches the staff experience particularly well. Anecdotally, staff mem
 
 As part of our broader planning strategy, we would like to explore how respiratory infections may have manifested and spread at camp in the past. Knowing differences between staff and campers, for example, could help us generate smarter policies for each group. Watching how diseases manifest and change over time may also yield useful insights.
 
-This project analyzes health center records, which are described in more detail below. It produces a summary of findings for decision-makers, along with recommendations for policy changes.
+This project analyzes health center records, which are described in more detail below. It produces a summary of findings for decision-makers and recommendations for policy changes.
 
 ## Data Source
 The dataset explored here was produced in a [a previous project](https://github.com/amcgaha/coding-health-records), which transformed messy, text-centered reports into a tidy dataset.
