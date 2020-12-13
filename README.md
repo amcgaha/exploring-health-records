@@ -22,7 +22,7 @@ While they are now solidifying as social norms, these public health protocols se
 
 Consider this plot. It shows the percent of all visits to the health center that show cold and flu symptoms. They are presented in chronological order, with the first day of camp on the left. The labels note camp sessions, which is the label most useful to the audience of camp leadership.
 
-![Image](https://github.com/amcgaha/exploring-health-records/blob/main/images/daily_plot_both.png)
+![Image](https://github.com/amcgaha/exploring-health-records/blob/main/images/daily_plot_both_a.png)
 
 
 This plot matches the staff experience particularly well. Anecdotally, staff members -- including me -- can recall that getting a cold or other respiratory infection in the past has seemed normal. We have gotten sick, took some medication to relieve symptoms, and often kept working. The COVID-19 pandemic has shown us that these norms ignored some basic ways we can help reduce the spread of communicable diseases at camp.
@@ -85,7 +85,7 @@ These discoveries highlight the importance of careful training for medical staff
 ### 3. Develop Data Model
 Consider this statistical plot of camper visits to the health center showing cold and flu symptoms.
 
-![Image](https://github.com/amcgaha/exploring-health-records/blob/main/images/session_plot_campers.png)
+![Image](https://github.com/amcgaha/exploring-health-records/blob/main/images/session_plot_campers_a.png)
 
 
 Camper visits to the health center seem fairly predictable across the summer. A useful next step would be to develop a data model. With a model, we would be able to show how normal or abnormal the number of health hut visits seems.
